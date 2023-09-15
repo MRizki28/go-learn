@@ -1,8 +1,11 @@
-package main 
+package main
 
 import "fmt"
 
-func  main()  {
-	fmt.Println("hello world")
-}
+var a int = 1
+var b int = 2
 
+func main() {
+	var total int = a + b
+	fmt.Println(total)
+}
